@@ -8,18 +8,17 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.cl</groupId>
-	<artifactId>eureka</artifactId>
+	<artifactId>consumer_ribbon</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>eureka</name>
-	<description>服务注册中心</description>
+	<name>consumer_ribbon</name>
+	<description>服务消费者</description>
 
-
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-		</dependency>
-	</dependencies>
+	<!--<dependencies>-->
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.cloud</groupId>-->
+			<!--<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>-->
+		<!--</dependency>-->
+	<!--</dependencies>-->
 
 	<build>
 		<plugins>

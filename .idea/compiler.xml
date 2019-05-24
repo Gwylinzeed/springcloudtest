@@ -10,6 +10,8 @@
         <module name="eureka" />
         <module name="eureka_client" />
         <module name="feign" />
+        <module name="gateway" />
+        <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,7 +19,9 @@
       <module name="eureka" target="1.8" />
       <module name="eureka_client" target="1.8" />
       <module name="feign" target="1.8" />
+      <module name="gateway" target="1.8" />
       <module name="springcloud_test" target="1.8" />
+      <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
